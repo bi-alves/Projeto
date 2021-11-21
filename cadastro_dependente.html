@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CadastroDependente</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Italianno&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/cadastro_dependente.css">
+	</head>
+	<body>
+
+		 <header id="navbar">
+			<h2>CADASTRAR CRIANÇA</h2>
+			<nav>
+				<ul id="navbar-list">
+					<li><a href="http://localhost/Projeto/principal.html">Voltar</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div id="main-cadastro-dependente">
+					<div id="container">
+			<form action="cadastro_dependente.php" method="POST">
+			<p>Obrigatório preencher todos os campos para realizar o cadastro</p>
+			<div id="input-field">
+				<input type="text" name="nome_dependente" placeholder=" ">
+				<label for="nome_dependente">Nome:</label>
+			
+		</div>
+		
+<div id="input-field">
+				
+		
+			<input type="date" name="dtnasc_dependente"  placeholder=" ">
+		<label for="dtnasc_dependente">Data nascimento:</label>
+	</div>
+
+	
+
+	<div id="input-field">
+		
+			<select id="select" name="sexo_dependente" placeholder=" ">
+	<option value=" "> </option>
+  <option value="1">Menino</option>
+  <option value="2">Menina</option>
+</select>
+<label for="sexo_dependente">Sexo:</label>
+		
+	</div>
+
+    <div id="center">
+
+	<button>Cadastrar</button>
+    </div>
+	</form>
+	</div>
+	</div>
+	</main>
+	</body>
+	</html>

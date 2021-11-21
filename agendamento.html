@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>registroVacinas</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Italianno&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/agendamento.css">
+	</head>
+	<body>
+		<main>
+		 <header id="navbar">
+			<h2>AGENDAMENTO DE VACINA</h2>
+			<nav>
+				<ul id="navbar-list">
+					<li><a href="http://localhost/Projeto/principal.html">Voltar</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+<div id="main-agendamento">
+			<div id="container">
+			<form action="agendamento.php" method="POST">
+			<p>Obrigatório preencher todos os campos para finalizar o registro</p>
+			
+	<div id="input-field">
+				<select id="select"	name="select" placeholder=" ">
+	<option selected="nome_vacina"></option>
+
+			</select>	
+			<label for="vacina">Nome da Vacina:</label>
+	</div>
+
+	<div id="input-field">
+		<input type="date" name="dt_agendamento" placeholder=" ">
+				<label for="dt_agendamento">Data Agendamento:</label>
+		</div>	
+		
+
+	<div id="input-field" ">
+		<select id="select-agendamento" name="select" placeholder=" ">
+	<option selected="hr_agendamento"></option>
+
+			</select>	
+				<label for="hr_agendamento">Hora:</label>
+		
+	</div>
+<div id="input-field">
+	<select id="select-agendamento" name="select" placeholder=" ">
+	<option selected="unidade"></option>
+
+			</select>	
+				<label class="control-label col-sm-2" for="unidade">Local:</label>
+	</div>
+
+	<div id="input-field">
+<select id="select-agendamento" name="select" placeholder=" ">
+	<option selected="lembrete"></option>
+
+			</select>	
+
+		<label for="lembrete">Lembrete:</label>
+		
+	</div>
+
+
+
+    <div id="center">
+
+	<button>Agendar</button>
+    </div>
+	</form>
+	</div>
+</div>
+	</div>
+
+	</main>
+	</body>
+	</html>
+
+				
+						
+						
+						

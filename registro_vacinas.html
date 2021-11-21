@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>registroVacinas</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Italianno&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/registro_vacina.css">
+	</head>
+	<body>
+
+		 <header id="navbar">
+			<h2>REGISTRO DE VACINA JÁ REALIZADA</h2>
+			<nav>
+				<ul id="navbar-list">
+					<li><a href="http://localhost/Projeto/principal.html">Voltar</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div id="main-registro">
+					<div id="container">
+			<form action="registro_vacinas.php" method="POST">
+			<p>Obrigatório preencher todos os campos para finalizar o registro</p>
+
+
+			<div id="input-field">
+				<select name="select" placeholder=" ">
+	<option selected="nome_vacina"></option>
+
+			</select>	
+			<label for="vacina">Nome da Vacina:</label>
+	</div>
+
+	
+<div id="input-field">
+				
+		<select name="select" placeholder=" ">
+	<option value=" "> </option>
+  <option value="x">Ao Nascer</option>
+  <option value="x">1ª Dose</option>
+  <option value="x">2ª Dose</option>
+  <option value="x">3ª Dose</option>
+  <option value="x">Reforço</option>
+</select>
+
+<label for="dose">Dose:</label>
+		</div>
+	
+	<div id="input-field">
+		
+		<input type="date" name="data_vacina" placeholder=" ">
+		
+		<label for="data_vacina">Data da Vacina:</label>
+	</div>
+
+	<div id="input-field">
+		
+		<input type="text" name="lote_vacina" placeholder=" ">
+
+		<label for="lote_vacina">Lote:</label>
+		</div>
+	
+
+	<div id="input-field">
+		
+		<input type="text" name="lab_prod" placeholder=" ">
+
+		<label for="lab_prod">Laboratório Produção:</label>
+		</div>
+	
+	<div id="input-field">
+		
+		<select name="unidade" placeholder=" ">
+	<option value=" "> </option>
+  <option value="x">Posto Piratini</option>
+  <option value="x">Posto São Miguel</option>
+  <option value="x">Posto Sul America</option>
+ 
+</select>
+
+<label for="unidade">Local de Vacinação:</label>
+		</div>
+	
+    <div id="center">
+
+	<button>Registrar</button>
+    </div>
+	</form>
+	</div>
+	</div>
+	</main>
+	</body>
+	</html>
+
+				
+						
+						
+						

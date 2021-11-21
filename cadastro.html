@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>cadastroSystem</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Italianno&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/cadastro_usuario.css">
+	</head>
+	<body>
+		<header id="navbar">
+			<h2>CADASTRO NO SISTEMA</h2>
+			<nav>
+				<ul id="navbar-list">
+					<li><a href="http://localhost/Projeto/principal.html">Voltar</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div id="main-cadastro">
+		<div id="container">
+			<form action="cadastro.php" method="POST">
+			<p>Obrigatório preencher todos os campos para realizar seu cadastro</p>
+
+			<div id="input-field">
+				
+			<input type="text" name="nome_usuario" placeholder=" " maxlength="100">
+
+			<label for="nome_usuario">Nome:</label>
+		
+			</div>
+	
+	
+			<div id="input-field">
+				
+			<input type="date" name="dtnasc_usuario"  placeholder=" ">
+
+			<label for="dtnasc_usuario">Data nascimento:</label>
+			</div>
+
+
+			<div id="input-field">
+		
+			<input type="email" name="email_usuario" placeholder=" " maxlength="50"> 
+
+			<label for="email_usuario">E-mail:</label>
+			</div>
+	
+			<div id="input-field">
+		
+			<input type="password" name="senha_usuario" placeholder=" " maxlength="8">
+
+			<label for="senha_usuario">Senha:</label>
+		
+			</div>
+
+			<div id="input-field">
+		
+			<input type="password" name="confirma_senha" placeholder=" " maxlength="8">
+
+			<label for="confirma_senha">Confirmar Senha:</label>
+		
+			</div>
+	
+    		<div id="center">
+
+			<button>Cadastrar</button>
+    		</div>
+	</form>
+	</div>
+	</div>
+	</main>
+	</body>
+	</html>
+
+				
+						
+						
+						
